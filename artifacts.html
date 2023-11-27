@@ -82,6 +82,19 @@
             height: 100%;
             border: none; /* Removes the default border around the iframe */
         }
+        .yt-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        .yt-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
         .video-container {
             position: relative;
             width: 100%;
@@ -295,12 +308,18 @@
                         </p>
                         <br>
                         <h6 class="vaporwave-accent-5">Digital Literacy Narrative, "Beyond Doubt" by Sedona Sky Zeller</h6>
+                        <div class="yt-container">
+                            <iframe src="https://www.youtube.com/embed/HbiuYfBx9JI?si=EJr861TbevQVzjqX" 
+                            frameborder="0" allowfullscreen class="yt-video"></iframe>
+                        </div>
+                        <!--
                         <div class="video-container">
                             <video width=100% controls poster="https://drive.google.com/file/d/1qDJMe6jUIURGwt_Nwh4U8D_vLpxIk_Vc/preview" preload="none">
                                 <source src="https://lh3.googleusercontent.com/pw/ADCreHcb1L6KDESVg2aEUqlLcZl5oEwZzAg2lS29S9J6fwXzzS-_YkqRBeTeTeb03ZqmJDE6PHIEulbBNOaO0DNG2sbNC7P9IDBZe8VX4ga8t2ogw8Xdzg=m37" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
