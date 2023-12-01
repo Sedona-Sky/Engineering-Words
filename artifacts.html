@@ -128,7 +128,7 @@
             }
         });
     </script> -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script> -->
 
 </head>
 <body>
@@ -163,7 +163,7 @@
             <!-- Artifact Item 1 -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed vaporwave-color-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-toggle="colllapse">
+                    <button class="accordion-button collapsed vaporwave-color-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                      <h4 class="vaporwave-color-2">Case Study Analysis</h4>
                     </button>
                 </h2>
@@ -179,7 +179,7 @@
                         <p class="vaporwave-color-1 answer-text">I included this artifact to showcase my critical thinking and analytical skills. This assignment allowed me to explore the nuances of academic integrity and the ethical use of AI in education, which are particularly relevant and rapidly changing topics. Furthermore, this project let me demonstrate my ability to engage with complex issues, analyze various perspectives, and develop coherent arguments.
                         </p>
                         <div class="pdf-container">
-                            <h6 class="vaporwave-accent-5"><a id="collapseOne">Case Study Analysis by Sedona Sky Zeller</a></h6>
+                            <h6 class="vaporwave-accent-5"><a id="collapseOne" data-bs-toggle="show">Case Study Analysis by Sedona Sky Zeller</a></h6>
                             <iframe src="https://drive.google.com/file/d/1ONpIadlKBMyGY1KskPa95Awr-bLdso_G/preview" frameborder="0" type="application/pdf">
                             This browser does not support PDFs. Please download the PDF to view it: <a href="htts://dprive.google.com/uc?export=download&id=1ONpIadlKBMyGY1KskPa95Awr-bLdso_G">Download PDF</a>.
                             </iframe>
@@ -391,11 +391,6 @@
             <!-- Additional Artifact items would follow the same pattern -->
         </div>
     </section>
-    <script> 
-        if (location.hash !== null && location.hash !== "") { 
-            $(location.hash + ".collapse").collapse("show"); 
-        } 
-    </script> 
 
     <footer class="text-center text-lg-start bg-dark text-muted">
         <div class="text-center p-4" style="background-color: rgba(24,24,24,1);">
