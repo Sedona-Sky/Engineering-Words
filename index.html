@@ -8,18 +8,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-    .navbar-brand { color: #DC21B8 !important; }                                                                          
-    .nav-link { color: #4AC0FC !important; }
-    .active { color: #C0C0C0 !important; }
-    body {
-        background-color: #121212;
-        color: white;
-    }
+        .navbar-brand { color: #DC21B8 !important; }
+        .nav-link { color: #4AC0FC !important; }
+        .active { color: #C0C0C0 !important; }
+        body {
+            background-color: #121212;
+            color: #C0C0C0;
+            border: none;
+        }
+        a {
+            outline-color: transparent;
+            text-decoration: none;
+            padding: 2px 1px 0;
+        }
+        a:link, a.visited, a.active { color: #C0C0C0; }
+
+        a:focus, a:hover {
+            border-bottom: 1px solid;
+        }
     .vaporwave-color-1 { color: #DC21B8; }
     .vaporwave-color-2 { color: #4AC0FC; }
     .author-image { border: 2px solid #4AC0FC; /* vaporwave-color-2 */ }
-
-    /* Additional vaporwave accent colors */
     .vaporwave-accent-1 { color: #B5179E; }
     .vaporwave-accent-2 { color: #7209B7; }
     .vaporwave-accent-3 { color: #480CA8; }
